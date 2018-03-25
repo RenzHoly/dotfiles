@@ -1,0 +1,5 @@
+# rofi.combi-modi:    clipboard:greenclip,drun,ssh
+# rofi.modi:          combi
+rofi.font:          "Ubuntu Mono" 20
+rofi.theme:         /usr/share/rofi/themes/gruvbox-dark-soft.rasi
+rofi.show-icons:    true

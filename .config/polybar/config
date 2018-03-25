@@ -1,0 +1,113 @@
+[colors]
+background = #222
+foreground = #dfdfdf
+
+
+[settings]
+screenchange-reload = true
+
+
+[global/wm]
+margin-top = 0
+margin-bottom = 0
+
+
+[bar/default]
+width = 100%
+height = 48
+fixed-center = true
+override-redirect = false
+separator = |
+tray-detached = false
+
+background = ${colors.background}
+foreground = ${colors.foreground}
+
+line-size = 2
+line-color = #f00
+
+padding-left = 1
+padding-right = 1
+
+module-margin-left = 1
+module-margin-right = 1
+
+font-0 = Ubuntu Mono:style=Bold:size=18;0
+font-1 = Noto Sans Mono CJK SC:style=Bold:size=18:;0
+font-2 = Noto Color Emoji:style=Bold:size=18:;0
+
+modules-left = workspaces
+modules-center = date
+modules-right = network cpu memory volume battery
+
+tray-position = right
+tray-padding = 0
+tray-maxsize = 32
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+
+
+[module/date]
+type = internal/date
+interval = 1
+date =
+date-alt = " %Y-%m-%d"
+time = %H:%M
+time-alt = %H:%M:%S
+label = %date% %time%
+
+
+[module/network]
+type = internal/network
+interface = wlp4s0
+interval = 1
+label-connected = %downspeed:min:max%
+label-disconnected = not connected
+
+
+[module/volume]
+type = internal/volume
+master-soundcard = default
+speaker-soundcard = default
+headphone-soundcard = default
+master-mixer = Master
+mapped = true
+label-volume = Vol %percentage%
+label-muted = "Muted "
+
+
+[module/workspaces]
+type = internal/xworkspaces
+pin-workspaces = true
+enable-click = true
+enable-scroll = false
+label-active = " %name% "
+label-monitor = " %name% "
+label-occupied = " %name% "
+label-urgent = " %name% "
+label-empty = " %name% "
+label-active-underline = #409EFF
+
+
+[module/cpu]
+type = internal/cpu
+interval = 0.5
+label = CPU %percentage%%
+
+
+[module/memory]
+type = internal/memory
+interval = 3
+label = RAM %percentage_used%%
+
+
+[module/battery]
+type = internal/battery
+full-at = 98
+battery = BAT0
+adapter = ADP1
+poll-interval = 60
+label-charging = Charging %percentage%%
+label-discharging = Battery %percentage%%
+label-full = 

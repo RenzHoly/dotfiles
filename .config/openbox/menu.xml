@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+    <menu id="root-menu" label="OpenBox 3">
+        <menu id="1" label="Development">
+            <item label="CMake"> <action name="Execute">
+                <execute>cmake-gui</execute>
+            </action> </item>
+            <item label="Postman"> <action name="Execute">
+                <execute>postman</execute>
+            </action> </item>
+            <item label="Qt4 Assistant"> <action name="Execute">
+                <execute>assistant-qt4</execute>
+            </action> </item>
+            <item label="Qt4 Designer"> <action name="Execute">
+                <execute>designer-qt4</execute>
+            </action> </item>
+            <item label="Qt4 Linguist"> <action name="Execute">
+                <execute>linguist-qt4</execute>
+            </action> </item>
+            <item label="Qt4 QDbusViewer"> <action name="Execute">
+                <execute>qdbusviewer-qt4</execute>
+            </action> </item>
+            <item label="Visual Studio Code"> <action name="Execute">
+                <execute>/opt/visual-studio-code/code</execute>
+            </action> </item>
+            <item label="Zeal"> <action name="Execute">
+                <execute>zeal</execute>
+            </action> </item>
+        </menu>
+        <menu id="2" label="Editors">
+            <item label="Nano"> <action name="Execute">
+                <execute>xterm -e nano</execute>
+            </action> </item>
+            <item label="Vi"> <action name="Execute">
+                <execute>xterm -e vi</execute>
+            </action> </item>
+            <item label="Vim"> <action name="Execute">
+                <execute>xterm -e vim</execute>
+            </action> </item>
+        </menu>
+        <menu id="18" label="Games">
+            <item label="Dota 2"> <action name="Execute">
+                <execute>steam steam://rungameid/570</execute>
+            </action> </item>
+        </menu>
+        <menu id="7" label="Multimedia">
+            <item label="ALSA mixer"> <action name="Execute">
+                <execute>xterm -e alsamixer</execute>
+            </action> </item>
+            <item label="Ario"> <action name="Execute">
+                <execute>ario</execute>
+            </action> </item>
+            <item label="Audacious"> <action name="Execute">
+                <execute>audacious</execute>
+            </action> </item>
+            <item label="HDSPConf"> <action name="Execute">
+                <execute>hdspconf</execute>
+            </action> </item>
+            <item label="HDSPMixer"> <action name="Execute">
+                <execute>hdspmixer</execute>
+            </action> </item>
+            <item label="mpv Media Player"> <action name="Execute">
+                <execute>mpv</execute>
+            </action> </item>
+            <item label="Qt V4L2 test Utility"> <action name="Execute">
+                <execute>qv4l2</execute>
+            </action> </item>
+        </menu>
+        <menu id="5" label="Network">
+            <item label="Avahi SSH Server Browser"> <action name="Execute">
+                <execute>bssh</execute>
+            </action> </item>
+            <item label="Avahi VNC Server Browser"> <action name="Execute">
+                <execute>bvnc</execute>
+            </action> </item>
+            <item label="FireFox"> <action name="Execute">
+                <execute>firefox</execute>
+            </action> </item>
+            <item label="FTP"> <action name="Execute">
+                <execute>xterm -e ftp</execute>
+            </action> </item>
+            <item label="Google Chrome"> <action name="Execute">
+                <execute>google-chrome-stable</execute>
+            </action> </item>
+            <item label="Mail"> <action name="Execute">
+                <execute>xterm -e mail</execute>
+            </action> </item>
+            <item label="Mail Reader"> <action name="Execute">
+                <execute>exo-open --launch MailReader</execute>
+            </action> </item>
+            <item label="Shadowsocks-Qt5"> <action name="Execute">
+                <execute>ss-qt5</execute>
+            </action> </item>
+            <item label="Steam (Native)"> <action name="Execute">
+                <execute>steam-native</execute>
+            </action> </item>
+            <item label="Steam (Runtime)"> <action name="Execute">
+                <execute>steam-runtime</execute>
+            </action> </item>
+            <item label="Talk"> <action name="Execute">
+                <execute>xterm -e talk</execute>
+            </action> </item>
+            <item label="Telnet"> <action name="Execute">
+                <execute>xterm -e telnet</execute>
+            </action> </item>
+            <item label="Web Browser"> <action name="Execute">
+                <execute>exo-open --launch WebBrowser</execute>
+            </action> </item>
+        </menu>
+        <menu id="19" label="Shells">
+            <item label="GIT"> <action name="Execute">
+                <execute>xterm -e git</execute>
+            </action> </item>
+            <item label="Guake Terminal"> <action name="Execute">
+                <execute>guake</execute>
+            </action> </item>
+            <item label="Thunar File Manager"> <action name="Execute">
+                <execute>thunar</execute>
+            </action> </item>
+            <item label="UXTerm"> <action name="Execute">
+                <execute>uxterm</execute>
+            </action> </item>
+            <item label="Xterm"> <action name="Execute">
+                <execute>xterm</execute>
+            </action> </item>
+        </menu>
+        <menu id="37" label="System">
+            <menu id="36" label="Settings">
+                <menu id="21" label="GNOME">
+                    <item label="Guake Preferences"> <action name="Execute">
+                        <execute>guake -p</execute>
+                    </action> </item>
+                    <item label="Network Connections"> <action name="Execute">
+                        <execute>nm-connection-editor</execute>
+                    </action> </item>
+                </menu>
+                <item label="ARandR"> <action name="Execute">
+                    <execute>arandr</execute>
+                </action> </item>
+                <item label="Customize Look and Feel"> <action name="Execute">
+                    <execute>lxappearance</execute>
+                </action> </item>
+                <item label="Fcitx Configuration"> <action name="Execute">
+                    <execute>fcitx-configtool</execute>
+                </action> </item>
+                <item label="File Manager"> <action name="Execute">
+                    <execute>thunar-settings</execute>
+                </action> </item>
+                <item label="Fontweak"> <action name="Execute">
+                    <execute>fontweak</execute>
+                </action> </item>
+                <item label="nitrogen"> <action name="Execute">
+                    <execute>nitrogen</execute>
+                </action> </item>
+                <item label="Openbox Configuration Manager"> <action name="Execute">
+                    <execute>obconf</execute>
+                </action> </item>
+                <item label="OpenJDK Java 9 Policy Tool"> <action name="Execute">
+                    <execute>policytool</execute>
+                </action> </item>
+                <item label="Preferred Applications"> <action name="Execute">
+                    <execute>exo-preferred-applications</execute>
+                </action> </item>
+                <item label="Removable Drives and Media"> <action name="Execute">
+                    <execute>thunar-volman-settings</execute>
+                </action> </item>
+            </menu>
+            <item label="Avahi Zeroconf Browser"> <action name="Execute">
+                <execute>avahi-discover</execute>
+            </action> </item>
+            <item label="Bulk Rename"> <action name="Execute">
+                <execute>/usr/lib/Thunar/ThunarBulkRename</execute>
+            </action> </item>
+            <item label="Fcitx"> <action name="Execute">
+                <execute>fcitx</execute>
+            </action> </item>
+            <item label="Fcitx Light UI"> <action name="Execute">
+                <execute>fcitx -u fcitx-light-ui</execute>
+            </action> </item>
+            <item label="Htop"> <action name="Execute">
+                <execute>xterm -e htop</execute>
+            </action> </item>
+            <item label="Libinput Gestures"> <action name="Execute">
+                <execute>libinput-gestures</execute>
+            </action> </item>
+            <item label="OpenJDK Java 9 Console"> <action name="Execute">
+                <execute>jconsole</execute>
+            </action> </item>
+        </menu>
+        <menu id="38" label="Utilities">
+            <item label="About Xfce"> <action name="Execute">
+                <execute>xfce4-about</execute>
+            </action> </item>
+            <item label="File Manager"> <action name="Execute">
+                <execute>exo-open --launch FileManager</execute>
+            </action> </item>
+            <item label="Terminal Emulator"> <action name="Execute">
+                <execute>exo-open --launch TerminalEmulator</execute>
+            </action> </item>
+            <item label="Xarchiver"> <action name="Execute">
+                <execute>xarchiver</execute>
+            </action> </item>
+        </menu>
+        <separator/>
+        <menu id="40" label="OpenBox">
+            <menu id="client-list-menu"/>
+            <item label="Reconfigure"> <action name="Reconfigure"/> </item>
+            <separator/>
+            <item label="Exit"> <action name="Exit"/> </item>
+        </menu>
+    </menu>
+</openbox_menu>
