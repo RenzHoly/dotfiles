@@ -23,6 +23,7 @@
 /etc/pacman.d/*
 !/etc/pacman.d/mirrorlist
 !/etc/X11/
+!/etc/udev/
 !/etc/pacman.conf
 !/etc/yaourtrc
 !/etc/mkinitcpio.conf
