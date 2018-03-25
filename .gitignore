@@ -7,16 +7,22 @@
 !/.config/polybar/
 !/.config/psd/
 !/.config/rofi/
+!/.config/fcitx/
+/.config/fcitx/*
 !/.config/fcitx/conf/
 !/.config/fcitx/config
 !/.config/xarchiver/
 
 /etc/*
+!/etc/docker/
+/etc/docker/*
 !/etc/docker/daemon.json
 !/etc/lxdm/
 !/etc/modprobe.d/
+!/etc/pacman.d/
+/etc/pacman.d/*
 !/etc/pacman.d/mirrorlist
-!/etc/X11/xorg.conf.d/
+!/etc/X11/
 !/etc/pacman.conf
 !/etc/yaourtrc
 !/etc/mkinitcpio.conf
