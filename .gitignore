@@ -27,3 +27,6 @@
 !/etc/yaourtrc
 !/etc/mkinitcpio.conf
 !/etc/makepkg.conf
+
+/bin/*
+/bin/monitor-hotplug.sh
