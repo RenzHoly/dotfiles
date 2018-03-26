@@ -12,6 +12,7 @@
 !/.config/fcitx/conf/
 !/.config/fcitx/config
 !/.config/xarchiver/
+!/.config/mpv/
 
 /etc/*
 !/etc/docker/

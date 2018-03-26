@@ -20,3 +20,4 @@ nitrogen --restore &
 polybar -r default &
 guake &
 greenclip daemon &
+plank &
