@@ -13,6 +13,7 @@
 !/.config/fcitx/config
 !/.config/xarchiver/
 !/.config/mpv/
+!/.config/chrome-flags.conf
 
 /etc/*
 !/etc/docker/
@@ -29,6 +30,7 @@
 !/etc/yaourtrc
 !/etc/mkinitcpio.conf
 !/etc/makepkg.conf
+!/etc/proxychains.conf
 
 /bin/*
 /bin/monitor-hotplug.sh
