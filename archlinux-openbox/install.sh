@@ -1,7 +1,5 @@
 #!/bin/env bash
 
-pacman -S git
-
 git clone https://aur.archlinux.org/package-query.git
 cd package-query
 makepkg -si
@@ -11,4 +9,4 @@ cd yaourt
 makepkg -si
 cd ..
 
-yaourt -S guake openbox rsync openssh docker fcitx-googlepinyin fcitx lxdm dunst profile-sync-daemon polybar openbox-themes mpv xarchiver shadowsocks-qt5 flameshot rofi nitrogen rofi-greenclip plank 
+yaourt -S guake openbox rsync openssh docker fcitx-googlepinyin fcitx lxdm dunst profile-sync-daemon polybar openbox-themes mpv xarchiver shadowsocks-qt5 flameshot rofi nitrogen rofi-greenclip plank openbox-themes lxdm-themes pigz p7zip unrar fontweak xtrlock xcompmgr proxychains
