@@ -17,6 +17,7 @@
 #xfce-mcs-manager &
 
 nitrogen --restore &
+compton &
 polybar -r default &
 guake &
 greenclip daemon &
