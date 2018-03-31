@@ -1,5 +1,9 @@
 #!/bin/env bash
 
+sudo pacman -S git curl zsh
+
+curl -L install.ohmyz.sh | sudo sh
+
 git clone https://aur.archlinux.org/package-query.git
 cd package-query
 makepkg -si
