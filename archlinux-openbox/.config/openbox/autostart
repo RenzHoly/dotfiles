@@ -16,6 +16,10 @@
 #
 #xfce-mcs-manager &
 
+fcitx &
+libinput-gestures &
+flameshot &
+ss-qt5 &
 nitrogen --restore &
 compton &
 polybar -r default &

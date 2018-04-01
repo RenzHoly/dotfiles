@@ -14,6 +14,9 @@
 !/.config/xarchiver/
 !/.config/mpv/
 !/.config/chrome-flags.conf
+!/.config/pulse/
+/.config/pulse/*
+!/.config/fcitx/daemon.conf
 
 /etc/*
 !/etc/docker/

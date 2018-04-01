@@ -72,7 +72,6 @@ master-soundcard = default
 speaker-soundcard = default
 headphone-soundcard = default
 master-mixer = Master
-mapped = true
 label-volume = VOL %percentage%
 label-muted = "MUTED"
 

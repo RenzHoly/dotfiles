@@ -206,19 +206,19 @@
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
         <name>brightness up</name>
-        <command>amixer set Master 5%+</command>
+        <command>pamixer -i 10</command>
       </action>
     </keybind>
     <keybind key="XF86AudioLowerVolume">
       <action name="Execute">
         <name>brightness up</name>
-        <command>amixer set Master 5%-</command>
+        <command>pamixer -d 10</command>
       </action>
     </keybind>
     <keybind key="XF86AudioMute">
       <action name="Execute">
         <name>brightness up</name>
-        <command>amixer set Master toggle</command>
+        <command>pamixer -t</command>
       </action>
     </keybind>
     <keybind key="XF86MonBrightnessUp">
