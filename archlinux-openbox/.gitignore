@@ -16,7 +16,7 @@
 !/.config/chrome-flags.conf
 !/.config/pulse/
 /.config/pulse/*
-!/.config/fcitx/daemon.conf
+!/.config/pulse/daemon.conf
 
 /etc/*
 !/etc/docker/
