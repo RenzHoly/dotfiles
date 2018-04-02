@@ -2,9 +2,8 @@
 
 rsync -r .config ~
 rsync .Xresources ~
-rsync .zshrc ~
-rsync .asoundrc ~
 rsync .xprofile ~
+rsync .zshrc ~
 
 rsync -r etc /
 rsync -r bin /usr/local

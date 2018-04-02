@@ -2,6 +2,7 @@
 
 cp -R ~/.config ./
 cp ~/.Xresources ./
+cp ~/.xprofile ./
 cp ~/.zshrc ./
 
 cp -R /etc ./
