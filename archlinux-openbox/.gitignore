@@ -1,5 +1,4 @@
 /.config/*
-!/.config/autostart/
 !/.config/dunst/
 !/.config/Dharkael/
 !/.config/fontconfig/
