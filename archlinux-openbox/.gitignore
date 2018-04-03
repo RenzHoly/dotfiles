@@ -35,4 +35,4 @@
 !/etc/proxychains.conf
 
 /bin/*
-/bin/monitor-hotplug.sh
+!/bin/monitor-hotplug.sh
