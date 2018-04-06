@@ -17,12 +17,11 @@
 #xfce-mcs-manager &
 
 fcitx &
-libinput-gestures &
 flameshot &
-ss-qt5 &
 nitrogen --restore &
-compton &
+xcompmgr &
 polybar -r default &
 guake &
 greenclip daemon &
 plank &
+ss-qt5 &

@@ -16,6 +16,7 @@
 !/.config/pulse/
 /.config/pulse/*
 !/.config/pulse/daemon.conf
+!/.config/libinput-gestures.conf
 
 /etc/*
 !/etc/docker/
