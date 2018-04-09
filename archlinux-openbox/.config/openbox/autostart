@@ -20,6 +20,7 @@ compton --backend xrender &
 # xcompmgr &
 fcitx &
 flameshot &
+chinese-calendar &
 nitrogen --restore &
 polybar -r default &
 guake &
