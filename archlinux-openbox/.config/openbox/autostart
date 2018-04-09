@@ -16,10 +16,11 @@
 #
 #xfce-mcs-manager &
 
+compton --backend xrender &
+# xcompmgr &
 fcitx &
 flameshot &
 nitrogen --restore &
-xcompmgr &
 polybar -r default &
 guake &
 greenclip daemon &
