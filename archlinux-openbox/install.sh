@@ -1,8 +1,9 @@
 #!/bin/env bash
 
+# yaourt
 sudo pacman -S git curl zsh
 
-curl -L install.ohmyz.sh | sudo sh
+curl -L install.ohmyz.sh | sh
 
 git clone https://aur.archlinux.org/package-query.git
 cd package-query
@@ -14,28 +15,28 @@ makepkg -si
 cd ..
 
 # openbox
-yaourt -S lxdm openbox lxappearance-obconf lxappearance oblogout obmenu
+sudo pacman -S lxdm openbox oblogout obmenu lxappearance-obconf lxappearance
 
 # desktop
-yaourt -S dunst rofi nitrogen rofi-greenclip plank compton xtrlock polybar chinese-calendar
+sudo pacman -S dunst nitrogen rofi rofi-greenclip plank compton xtrlock polybar
 
 # gui tools
-yaourt -S guake fcitx-googlepinyin fcitx-im shadowsocks-qt5 flameshot fontweak pcmanfm xarchiver mpv
+sudo pacman -S guake fcitx-googlepinyin fcitx-im shadowsocks-qt5 flameshot fontweak pcmanfm xarchiver mpv chinese-calendar
 
 # cli tools
-yaourt -S rsync openssh profile-sync-daemon pigz p7zip unrar proxychains mons gvfs-smb
+sudo pacman -S rsync openssh profile-sync-daemon pigz p7zip unrar proxychains mons gvfs-smb
 
 # audop
-yaourt -S pulseaudio pulseaudio-alsa pulseaudio-bluetooth pamixer
+sudo pacman -S pulseaudio pulseaudio-alsa pulseaudio-bluetooth pamixer
 
 # fonts
-yaourt -S noto-fonts-cjk noto-fonts noto-fonts-emoji ttf-fira-code ttf-monaco ttf-ubuntu-font-family
+sudo pacman -S noto-fonts-cjk noto-fonts noto-fonts-emoji ttf-fira-code ttf-monaco ttf-ubuntu-font-family
 
 # gesture
-yaourt -S libinput-gestures gesture-manager-git
+sudo pacman -S libinput-gestures gesture-manager-git
 
 # temperature
-yaourt -S cpupower thermald
+sudo pacman -S cpupower thermald
 
 # themes
-yaourt -S gtk-engines archlinux-wallpaper lxdm-themes openbox-themes
+sudo pacman -S gtk-engines archlinux-wallpaper lxdm-themes openbox-themes
