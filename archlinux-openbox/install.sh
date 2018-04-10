@@ -30,7 +30,7 @@ sudo pacman -S qtwebkit-bin fcitx-sogoupinyin fcitx-im
 sudo pacman -S rsync openssh profile-sync-daemon pigz p7zip unrar proxychains mons gvfs-smb
 
 # audop
-sudo pacman -S pulseaudio pulseaudio-alsa pulseaudio-bluetooth pamixer
+sudo pacman -S pulseaudio pulseaudio-alsa pulseaudio-bluetooth pamixer pa-applet-git
 
 # fonts
 sudo pacman -S noto-fonts-cjk noto-fonts noto-fonts-emoji ttf-fira-code ttf-monaco ttf-ubuntu-font-family

@@ -19,6 +19,7 @@
 compton &
 flameshot &
 chinese-calendar &
+pa-applet &
 nitrogen --restore &
 polybar -r default &
 greenclip daemon &

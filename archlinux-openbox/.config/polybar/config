@@ -38,7 +38,7 @@ font-2 = Noto Color Emoji:style=Bold:size=18:;0
 
 modules-left = workspaces
 modules-center = date
-modules-right = network cpu memory volume battery
+modules-right = network cpu memory battery
 
 tray-position = right
 tray-padding = 0
@@ -64,16 +64,6 @@ interface = wlp4s0
 interval = 1
 label-connected = %downspeed:min:max%
 label-disconnected = not connected
-
-
-[module/volume]
-type = internal/volume
-master-soundcard = default
-speaker-soundcard = default
-headphone-soundcard = default
-master-mixer = Master
-label-volume = VOL %percentage%
-label-muted = "MUTED"
 
 
 [module/workspaces]
