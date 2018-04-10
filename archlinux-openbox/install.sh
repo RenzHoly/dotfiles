@@ -13,6 +13,29 @@ cd yaourt
 makepkg -si
 cd ..
 
-yaourt -S guake openbox rsync openssh fcitx-googlepinyin fcitx-im lxdm dunst profile-sync-daemon polybar openbox-themes mpv xarchiver shadowsocks-qt5 flameshot rofi nitrogen rofi-greenclip plank openbox-themes lxdm-themes pigz p7zip unrar fontweak xtrlock compton proxychains gtk-engines noto-fonts-cjk noto-fonts noto-fonts-emoji ttf-fira-code ttf-monaco ttf-ubuntu-font-family pcmanfm archlinux-wallpaper gvfs-smb lxappearance-obconf lxappearance oblogout archlinux-wallpaper pulseaudio pulseaudio-alsa pulseaudio-bluetooth pamixer mons chinese-calendar
+# openbox
+yaourt -S lxdm openbox lxappearance-obconf lxappearance oblogout obmenu
 
+# desktop
+yaourt -S dunst rofi nitrogen rofi-greenclip plank compton xtrlock polybar chinese-calendar
+
+# gui tools
+yaourt -S guake fcitx-googlepinyin fcitx-im shadowsocks-qt5 flameshot fontweak pcmanfm xarchiver mpv
+
+# command-line tools
+yaourt -S rsync openssh profile-sync-daemon pigz p7zip unrar proxychains mons gvfs-smb
+
+# audop
+yaourt -S pulseaudio pulseaudio-alsa pulseaudio-bluetooth pamixer
+
+# fonts
+yaourt -S noto-fonts-cjk noto-fonts noto-fonts-emoji ttf-fira-code ttf-monaco ttf-ubuntu-font-family
+
+# gesture
 yaourt -S libinput-gestures gesture-manager-git
+
+# temperature
+yaourt -S cpupower thermald
+
+# themes
+yaourt -S gtk-engines archlinux-wallpaper lxdm-themes openbox-themes
