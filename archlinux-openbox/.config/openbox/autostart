@@ -16,13 +16,14 @@
 #
 #xfce-mcs-manager &
 
-compton &
+compton -b &
 flameshot &
 chinese-calendar &
 pa-applet &
 nitrogen --restore &
 polybar -r default &
 greenclip daemon &
+libinput-gestures-setup restart &
 plank &
 ss-qt5 &
 guake &
