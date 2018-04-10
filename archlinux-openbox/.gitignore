@@ -35,6 +35,3 @@
 !/etc/mkinitcpio.conf
 !/etc/makepkg.conf
 !/etc/proxychains.conf
-
-/bin/*
-!/bin/monitor-hotplug.sh

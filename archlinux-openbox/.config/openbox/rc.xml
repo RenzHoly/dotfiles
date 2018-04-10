@@ -205,32 +205,37 @@
     </keybind>
     <keybind key="XF86AudioRaiseVolume">
       <action name="Execute">
-        <name>brightness up</name>
         <command>pamixer -i 10</command>
       </action>
     </keybind>
     <keybind key="XF86AudioLowerVolume">
       <action name="Execute">
-        <name>brightness up</name>
         <command>pamixer -d 10</command>
       </action>
     </keybind>
     <keybind key="XF86AudioMute">
       <action name="Execute">
-        <name>brightness up</name>
         <command>pamixer -t</command>
       </action>
     </keybind>
     <keybind key="XF86MonBrightnessUp">
       <action name="Execute">
-        <name>brightness up</name>
         <command>gmux_backlight +64</command>
       </action>
     </keybind>
     <keybind key="XF86MonBrightnessDown">
       <action name="Execute">
-        <name>brightness down</name>
         <command>gmux_backlight -64</command>
+      </action>
+    </keybind>
+   <keybind key="XF86KbdBrightnessUp">
+      <action name="Execute">
+        <command>kb-light.py +</command>
+      </action>
+    </keybind>
+    <keybind key="XF86KbdBrightnessDown">
+      <action name="Execute">
+        <command>kb-light.py -</command>
       </action>
     </keybind>
     <keybind key="C-A-Left">

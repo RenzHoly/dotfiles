@@ -84,7 +84,7 @@ NextPageKey== .
 # No
 # All
 # PerProgram
-#ShareStateAmongWindow=No
+ShareStateAmongWindow=All
 # Default Input Method State
 # Available Value:
 # Inactive
@@ -144,8 +144,4 @@ NextPageKey== .
 # Available Value:
 # True False
 #HideInputWindowWhenOnlyOneCandidate=False
-
-
-
-se
 

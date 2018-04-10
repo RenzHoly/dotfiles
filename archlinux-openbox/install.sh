@@ -43,3 +43,6 @@ sudo pacman -S cpupower thermald
 
 # themes
 sudo pacman -S gtk-engines archlinux-wallpaper lxdm-themes openbox-themes
+
+# keyboard brightness
+sudo pacman -S upower python-dbus dbus
