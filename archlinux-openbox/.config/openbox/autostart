@@ -23,7 +23,7 @@ flameshot &
 chinese-calendar &
 nitrogen --restore &
 polybar -r default &
-guake &
 greenclip daemon &
 plank &
 ss-qt5 &
+guake &

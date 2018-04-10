@@ -1,9 +1,9 @@
 #!/bin/env bash
 
-cp -R ~/.config ./
-cp ~/.Xresources ./
-cp ~/.xprofile ./
-cp ~/.zshrc ./
+rsync -r ~/.config ./
+rsync ~/.Xresources ./
+rsync ~/.xprofile ./
+rsync ~/.zshrc ./
 
-cp -R /etc ./
-cp -R /usr/local/bin ./
+rsync -r /etc ./
+rsync -r /usr/local/bin ./

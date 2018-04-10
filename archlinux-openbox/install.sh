@@ -22,7 +22,7 @@ yaourt -S dunst rofi nitrogen rofi-greenclip plank compton xtrlock polybar chine
 # gui tools
 yaourt -S guake fcitx-googlepinyin fcitx-im shadowsocks-qt5 flameshot fontweak pcmanfm xarchiver mpv
 
-# command-line tools
+# cli tools
 yaourt -S rsync openssh profile-sync-daemon pigz p7zip unrar proxychains mons gvfs-smb
 
 # audop
