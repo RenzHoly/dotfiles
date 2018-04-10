@@ -16,9 +16,7 @@
 #
 #xfce-mcs-manager &
 
-compton --backend xrender &
-# xcompmgr &
-fcitx &
+compton &
 flameshot &
 chinese-calendar &
 nitrogen --restore &

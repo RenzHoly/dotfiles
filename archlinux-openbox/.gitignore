@@ -8,7 +8,6 @@
 !/.config/rofi/
 !/.config/fcitx/
 /.config/fcitx/*
-!/.config/fcitx/conf/
 !/.config/fcitx/config
 !/.config/xarchiver/
 !/.config/mpv/
@@ -18,6 +17,7 @@
 !/.config/pulse/daemon.conf
 !/.config/libinput-gestures.conf
 !/.config/gesturesmanger.json
+!/.config/compton.conf
 
 /etc/*
 !/etc/docker/
