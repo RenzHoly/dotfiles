@@ -21,7 +21,10 @@ sudo pacman -S lxdm openbox oblogout obmenu lxappearance-obconf lxappearance
 sudo pacman -S dunst nitrogen rofi rofi-greenclip plank compton xtrlock polybar
 
 # gui tools
-sudo pacman -S guake fcitx-googlepinyin fcitx-im shadowsocks-qt5 flameshot fontweak pcmanfm xarchiver mpv chinese-calendar
+sudo pacman -S guake shadowsocks-qt5 flameshot fontweak pcmanfm xarchiver mpv chinese-calendar
+
+# input method
+sudo pacman -S qtwebkit-bin fcitx-sogoupinyin fcitx-im
 
 # cli tools
 sudo pacman -S rsync openssh profile-sync-daemon pigz p7zip unrar proxychains mons gvfs-smb
