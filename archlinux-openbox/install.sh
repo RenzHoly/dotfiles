@@ -39,7 +39,7 @@ sudo pacman -S noto-fonts-cjk noto-fonts noto-fonts-emoji ttf-fira-code ttf-mona
 sudo pacman -S libinput-gestures gesture-manager-git
 
 # temperature
-sudo pacman -S cpupower thermald
+sudo pacman -S cpupower thermald mbpfan-git
 
 # themes
 sudo pacman -S gtk-engines archlinux-wallpaper lxdm-themes openbox-themes
