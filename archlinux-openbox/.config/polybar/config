@@ -38,7 +38,7 @@ font-2 = Noto Color Emoji:style=Bold:size=18:;0
 
 modules-left = workspaces
 modules-center = date
-modules-right = network cpu memory battery
+modules-right = network cpu memory battery temperature
 
 tray-position = right
 tray-padding = 0
@@ -100,3 +100,11 @@ poll-interval = 60
 label-charging = Charging %percentage%%
 label-discharging = Battery %percentage%%
 label-full = 
+
+
+[module/temperature]
+type = internal/temperature
+interval = 0.5
+thermal-zone = 0
+hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon2/temp1_input
+warn-temperature = 60

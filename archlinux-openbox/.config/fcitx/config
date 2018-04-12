@@ -27,7 +27,7 @@ UseExtraTriggerKeyOnlyWhenUseItToInactivate=False
 # Super+Right Ctrl
 # Disabled
 # Custom
-SwitchKey=SHIFT Both
+SwitchKey=Disabled
 # Custom switch key
 #CustomSwitchKey=
 # Activate input method
@@ -37,7 +37,7 @@ SwitchKey=SHIFT Both
 # Enable Hotkey to scroll Between Input Method
 # Available Value:
 # True False
-#IMSwitchKey=True
+IMSwitchKey=False
 # Include Inactivate when scrolling between Input Method
 # Available Value:
 # True False
