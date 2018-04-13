@@ -20,8 +20,14 @@
             <item label="Qt4 QDbusViewer"> <action name="Execute">
                 <execute>qdbusviewer-qt4</execute>
             </action> </item>
+            <item label="Robo 3T"> <action name="Execute">
+                <execute>robo3t</execute>
+            </action> </item>
+            <item label="Sublime Text 3 Dev"> <action name="Execute">
+                <execute>subl3</execute>
+            </action> </item>
             <item label="Visual Studio Code"> <action name="Execute">
-                <execute>/opt/visual-studio-code/code</execute>
+                <execute>/opt/visual-studio-code/code --enable-native-gpu-memory-buffers --flag-switches-begin --enable-gpu-rasterization --enable-zero-copy --ignore-gpu-blacklist --enable-smooth-scrolling</execute>
             </action> </item>
             <item label="Zeal"> <action name="Execute">
                 <execute>zeal</execute>
@@ -38,17 +44,17 @@
                 <execute>xterm -e vim</execute>
             </action> </item>
         </menu>
-        <menu id="18" label="Games">
-            <item label="Dota 2"> <action name="Execute">
-                <execute>steam steam://rungameid/570</execute>
+        <menu id="6" label="Graphics">
+            <item label="chinese-calendar"> <action name="Execute">
+                <execute>chinese-calendar</execute>
+            </action> </item>
+            <item label="Flameshot"> <action name="Execute">
+                <execute>flameshot</execute>
             </action> </item>
         </menu>
         <menu id="7" label="Multimedia">
             <item label="ALSA mixer"> <action name="Execute">
                 <execute>xterm -e alsamixer</execute>
-            </action> </item>
-            <item label="Ario"> <action name="Execute">
-                <execute>ario</execute>
             </action> </item>
             <item label="Audacious"> <action name="Execute">
                 <execute>audacious</execute>
@@ -64,6 +70,9 @@
             </action> </item>
             <item label="Qt V4L2 test Utility"> <action name="Execute">
                 <execute>qv4l2</execute>
+            </action> </item>
+            <item label="VLC media player"> <action name="Execute">
+                <execute>vlc</execute>
             </action> </item>
         </menu>
         <menu id="5" label="Network">
@@ -82,20 +91,14 @@
             <item label="Google Chrome"> <action name="Execute">
                 <execute>google-chrome-stable</execute>
             </action> </item>
+            <item label="Lynx"> <action name="Execute">
+                <execute>xterm -e lynx</execute>
+            </action> </item>
             <item label="Mail"> <action name="Execute">
                 <execute>xterm -e mail</execute>
             </action> </item>
-            <item label="Mail Reader"> <action name="Execute">
-                <execute>exo-open --launch MailReader</execute>
-            </action> </item>
             <item label="Shadowsocks-Qt5"> <action name="Execute">
                 <execute>ss-qt5</execute>
-            </action> </item>
-            <item label="Steam (Native)"> <action name="Execute">
-                <execute>steam-native</execute>
-            </action> </item>
-            <item label="Steam (Runtime)"> <action name="Execute">
-                <execute>steam-runtime</execute>
             </action> </item>
             <item label="Talk"> <action name="Execute">
                 <execute>xterm -e talk</execute>
@@ -103,19 +106,19 @@
             <item label="Telnet"> <action name="Execute">
                 <execute>xterm -e telnet</execute>
             </action> </item>
-            <item label="Web Browser"> <action name="Execute">
-                <execute>exo-open --launch WebBrowser</execute>
+            <item label="Web"> <action name="Execute">
+                <execute>epiphany</execute>
             </action> </item>
         </menu>
         <menu id="19" label="Shells">
+            <item label="File Manager PCManFM"> <action name="Execute">
+                <execute>pcmanfm</execute>
+            </action> </item>
             <item label="GIT"> <action name="Execute">
                 <execute>xterm -e git</execute>
             </action> </item>
             <item label="Guake Terminal"> <action name="Execute">
                 <execute>guake</execute>
-            </action> </item>
-            <item label="Thunar File Manager"> <action name="Execute">
-                <execute>thunar</execute>
             </action> </item>
             <item label="UXTerm"> <action name="Execute">
                 <execute>uxterm</execute>
@@ -127,11 +130,22 @@
         <menu id="37" label="System">
             <menu id="36" label="Settings">
                 <menu id="21" label="GNOME">
+                    <item label="Adobe Flash Player"> <action name="Execute">
+                        <execute>flash-player-properties</execute>
+                    </action> </item>
+                    <item label="Bluetooth Manager"> <action name="Execute">
+                        <execute>blueman-manager</execute>
+                    </action> </item>
                     <item label="Guake Preferences"> <action name="Execute">
                         <execute>guake -p</execute>
                     </action> </item>
                     <item label="Network Connections"> <action name="Execute">
                         <execute>nm-connection-editor</execute>
+                    </action> </item>
+                </menu>
+                <menu id="35" label="Xfce">
+                    <item label="Bluetooth Adapters"> <action name="Execute">
+                        <execute>blueman-adapters</execute>
                     </action> </item>
                 </menu>
                 <item label="ARandR"> <action name="Execute">
@@ -140,14 +154,17 @@
                 <item label="Customize Look and Feel"> <action name="Execute">
                     <execute>lxappearance</execute>
                 </action> </item>
+                <item label="Desktop Preferences"> <action name="Execute">
+                    <execute>pcmanfm --desktop-pref</execute>
+                </action> </item>
                 <item label="Fcitx Configuration"> <action name="Execute">
                     <execute>fcitx-configtool</execute>
                 </action> </item>
-                <item label="File Manager"> <action name="Execute">
-                    <execute>thunar-settings</execute>
-                </action> </item>
                 <item label="Fontweak"> <action name="Execute">
                     <execute>fontweak</execute>
+                </action> </item>
+                <item label="Manage Printing"> <action name="Execute">
+                    <execute>xdg-open http://localhost:631/</execute>
                 </action> </item>
                 <item label="nitrogen"> <action name="Execute">
                     <execute>nitrogen</execute>
@@ -158,18 +175,21 @@
                 <item label="OpenJDK Java 9 Policy Tool"> <action name="Execute">
                     <execute>policytool</execute>
                 </action> </item>
-                <item label="Preferred Applications"> <action name="Execute">
-                    <execute>exo-preferred-applications</execute>
+                <item label="Passwords and Keys"> <action name="Execute">
+                    <execute>seahorse</execute>
                 </action> </item>
-                <item label="Removable Drives and Media"> <action name="Execute">
-                    <execute>thunar-volman-settings</execute>
+                <item label="Preferred Applications"> <action name="Execute">
+                    <execute>libfm-pref-apps</execute>
+                </action> </item>
+                <item label="PulseAudio Preferences"> <action name="Execute">
+                    <execute>paprefs</execute>
+                </action> </item>
+                <item label="Tint2 Settings"> <action name="Execute">
+                    <execute>tint2conf</execute>
                 </action> </item>
             </menu>
             <item label="Avahi Zeroconf Browser"> <action name="Execute">
                 <execute>avahi-discover</execute>
-            </action> </item>
-            <item label="Bulk Rename"> <action name="Execute">
-                <execute>/usr/lib/Thunar/ThunarBulkRename</execute>
             </action> </item>
             <item label="Fcitx"> <action name="Execute">
                 <execute>fcitx</execute>
@@ -177,25 +197,37 @@
             <item label="Fcitx Light UI"> <action name="Execute">
                 <execute>fcitx -u fcitx-light-ui</execute>
             </action> </item>
+            <item label="GParted"> <action name="Execute">
+                <execute>gparted</execute>
+            </action> </item>
             <item label="Htop"> <action name="Execute">
                 <execute>xterm -e htop</execute>
             </action> </item>
             <item label="Libinput Gestures"> <action name="Execute">
                 <execute>libinput-gestures</execute>
             </action> </item>
+            <item label="LSHW"> <action name="Execute">
+                <execute>gtk-lshw</execute>
+            </action> </item>
             <item label="OpenJDK Java 9 Console"> <action name="Execute">
                 <execute>jconsole</execute>
             </action> </item>
+            <item label="System Profiler and Benchmark"> <action name="Execute">
+                <execute>hardinfo</execute>
+            </action> </item>
+            <item label="Tint2"> <action name="Execute">
+                <execute>tint2</execute>
+            </action> </item>
         </menu>
         <menu id="38" label="Utilities">
-            <item label="About Xfce"> <action name="Execute">
-                <execute>xfce4-about</execute>
+            <item label="compton"> <action name="Execute">
+                <execute>compton --xrender-sync-fence</execute>
             </action> </item>
-            <item label="File Manager"> <action name="Execute">
-                <execute>exo-open --launch FileManager</execute>
+            <item label="Gesture Manager"> <action name="Execute">
+                <execute>gesture-manager</execute>
             </action> </item>
-            <item label="Terminal Emulator"> <action name="Execute">
-                <execute>exo-open --launch TerminalEmulator</execute>
+            <item label="Plank"> <action name="Execute">
+                <execute>plank</execute>
             </action> </item>
             <item label="Xarchiver"> <action name="Execute">
                 <execute>xarchiver</execute>

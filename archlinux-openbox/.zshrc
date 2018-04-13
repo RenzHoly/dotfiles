@@ -96,5 +96,5 @@ source /usr/share/nvm/init-nvm.sh
 
 alias jkb='kubectl --kubeconfig ~/.kube/env-b/config'
 alias pc='proxychains -q'
-alias code='code --enable-native-gpu-memory-buffers --flag-switches-begin --enable-gpu-rasterization --enable-zero-copy --ignore-gpu-blacklist --enable-smooth-scrolling --flag-switches-end'
+alias code='f(){ code "$@" --enable-native-gpu-memory-buffers --flag-switches-begin --enable-gpu-rasterization --enable-zero-copy --ignore-gpu-blacklist --enable-smooth-scrolling --flag-switches-end;  unset -f f; }; f'
 export EDITOR=vim
