@@ -1,11 +1,16 @@
 #!/bin/bash
 
-function connect(){
+function connect() {
 	mons -s
+	openbox --restart
+	nitrogen --restore
 }
 
-function disconnect(){
+function disconnect() {
 	mons -o
+	openbox --restart
+	nitrogen --restore
 }
 
 xrandr | grep "DisplayPort-. connected" &> /dev/null && connect || disconnect
+xrandr | grep "HDMI-. connected" &> /dev/null && connect || disconnect
