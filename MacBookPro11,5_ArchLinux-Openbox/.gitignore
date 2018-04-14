@@ -18,6 +18,11 @@
 !/.config/libinput-gestures.conf
 !/.config/gesturesmanger.json
 !/.config/compton.conf
+!/.config/Code/
+/.config/Code/*
+!/.config/Code/User/
+/.config/Code/User/*
+!/.config/Code/User/settings.json
 
 /etc/*
 !/etc/docker/

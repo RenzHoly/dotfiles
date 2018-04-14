@@ -1,0 +1,24 @@
+{
+  "workbench.startupEditor": "none",
+  "editor.formatOnSave": true,
+  "files.autoSave": "onFocusChange",
+  "files.insertFinalNewline": true,
+  "editor.tabSize": 2,
+  "editor.fontSize": 14,
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.detectIndentation": false,
+  "editor.wordWrap": "on",
+  "window.openFoldersInNewWindow": "on",
+  "git.enableSmartCommit": true,
+  "window.zoomLevel": 1,
+  "workbench.colorCustomizations": {
+    "tab.activeBackground": "#282c34",
+    "activityBar.background": "#282c34",
+    "editorGroup.background": "#282c34",
+    "sideBar.background": "#282c34"
+  },
+  "extensions.ignoreRecommendations": false,
+  "explorer.confirmDragAndDrop": false,
+  "workbench.colorTheme": "One Dark Pro"
+}
