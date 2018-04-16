@@ -24,7 +24,7 @@ yaourt -S network-manager-applet networkmanager networkmanager-openvpn
 yaourt -S dunst nitrogen rofi rofi-greenclip plank compton xtrlock polybar
 
 # gui tools
-yaourt -S guake shadowsocks-qt5 flameshot fontweak pcmanfm xarchiver mpv chinese-calendar
+yaourt -S guake shadowsocks-qt5 flameshot fontweak pcmanfm xarchiver mpv chinese-calendar gpicview
 
 # input method
 yaourt -S qtwebkit-bin fcitx-sogoupinyin fcitx-im
