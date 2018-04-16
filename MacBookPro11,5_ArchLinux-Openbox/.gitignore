@@ -43,3 +43,4 @@
 !/etc/oblogout.conf
 !/etc/mbpfan.conf
 !/etc/sysctl.d
+!/etc/xdg
