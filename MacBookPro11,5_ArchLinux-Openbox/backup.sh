@@ -7,3 +7,4 @@ rsync ~/.zshrc ./
 
 rsync -r /etc ./
 rsync -r /usr/local/bin ./
+rsync -r /boot/loader ./
