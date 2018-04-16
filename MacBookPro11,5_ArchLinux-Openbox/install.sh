@@ -30,22 +30,22 @@ yaourt -S guake shadowsocks-qt5 flameshot fontweak pcmanfm xarchiver mpv chinese
 yaourt -S qtwebkit-bin fcitx-sogoupinyin fcitx-im
 
 # cli tools
-yaourt -S rsync openssh profile-sync-daemon pigz p7zip unrar proxychains mons gvfs-smb
+yaourt -S rsync openssh pigz p7zip unrar proxychains mons gvfs-smb
 
-# audop
+# audio
 yaourt -S pulseaudio pulseaudio-alsa pulseaudio-bluetooth pamixer ponymix pa-applet-git
 
 # fonts
 yaourt -S noto-fonts-cjk noto-fonts noto-fonts-emoji ttf-fira-code ttf-monaco ttf-ubuntu-font-family
 
-# gesture
-yaourt -S libinput-gestures gesture-manager-git
-
-# temperature
-yaourt -S cpupower thermald mbpfan-git
+# performance tuning
+yaourt -S cpupower thermald mbpfan-git ananicy-git driconf profile-sync-daemon systemd-swap
 
 # themes
 yaourt -S gtk-engines archlinux-wallpaper lxdm-themes openbox-themes
 
 # keyboard brightness
 yaourt -S upower python-dbus dbus
+
+# gesture
+yaourt -S libinput-gestures gesture-manager-git
