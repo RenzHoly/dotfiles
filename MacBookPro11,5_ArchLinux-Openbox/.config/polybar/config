@@ -32,9 +32,7 @@ padding-right = 1
 module-margin-left = 1
 module-margin-right = 1
 
-font-0 = Ubuntu Mono:style=Bold:size=18;0
-font-1 = Noto Sans Mono CJK SC:style=Bold:size=18:;0
-font-2 = Noto Color Emoji:style=Bold:size=18:;0
+font-0 = Ubuntu Mono:style=Bold:size=19
 
 modules-left = workspaces
 modules-center = date cpu freq memory temperature fan network battery
@@ -51,11 +49,9 @@ cursor-scroll = ns-resize
 [module/date]
 type = internal/date
 interval = 1
-date =
-date-alt = "%Y-%m-%d "
-time = "%H:%M"
-time-alt = %H:%M:%S
-label = "%date%%time%"
+date = %Y-%m-%d
+time = %H:%M:%S
+label = "%date% %time%"
 
 
 [module/network]
@@ -82,13 +78,13 @@ label-active-underline = #409EFF
 [module/cpu]
 type = internal/cpu
 interval = 0.5
-label = CPU %percentage%%
+label = %percentage%%
 
 
 [module/memory]
 type = internal/memory
 interval = 0.5
-label = RAM %percentage_used%%
+label = %gb_used%
 
 
 [module/battery]
@@ -114,7 +110,7 @@ label-warn-foreground = #d73a49
 [module/fan]
 type = custom/script
 format = <label>
-label = FAN %output%
+label = %output% RPM
 exec = cat /sys/devices/platform/applesmc.768/fan1_input
 interval = 0.5
 
