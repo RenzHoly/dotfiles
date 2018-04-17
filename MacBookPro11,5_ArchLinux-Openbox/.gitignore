@@ -44,3 +44,4 @@
 !/etc/mbpfan.conf
 !/etc/sysctl.d
 !/etc/xdg
+!/etc/default

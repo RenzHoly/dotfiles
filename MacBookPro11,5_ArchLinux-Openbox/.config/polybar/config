@@ -37,7 +37,7 @@ font-1 = Noto Sans Mono CJK SC:style=Bold:size=18:;0
 font-2 = Noto Color Emoji:style=Bold:size=18:;0
 
 modules-left = workspaces
-modules-center = date cpu memory network temperature fan battery
+modules-center = date cpu freq memory temperature fan network battery
 modules-right = 
 
 tray-position = right
@@ -106,8 +106,8 @@ label-full =
 type = internal/temperature
 interval = 0.5
 thermal-zone = 0
-hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon0/temp1_input
-warn-temperature = 77
+hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon3/temp1_input
+warn-temperature = 84
 label-warn-foreground = #d73a49
 
 
@@ -116,4 +116,10 @@ type = custom/script
 format = <label>
 label = FAN %output%
 exec = cat /sys/devices/platform/applesmc.768/fan1_input
+interval = 0.5
+
+
+[module/freq]
+type = custom/script
+exec = cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_cur_freq | awk '{ total += $1; count++ } END { printf("%.1f GHz", total / count / 1000000) }'
 interval = 0.5
