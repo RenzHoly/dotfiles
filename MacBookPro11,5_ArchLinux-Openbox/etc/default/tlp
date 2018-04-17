@@ -48,9 +48,9 @@ CPU_SCALING_GOVERNOR_ON_BAT=powersave
 # Possible values strongly depend on your CPU. For available frequencies see
 # the output of tlp-stat -p.
 #CPU_SCALING_MIN_FREQ_ON_AC=0
-CPU_SCALING_MAX_FREQ_ON_AC=3000000
+CPU_SCALING_MAX_FREQ_ON_AC=2400000
 #CPU_SCALING_MIN_FREQ_ON_BAT=0
-CPU_SCALING_MAX_FREQ_ON_BAT=3000000
+CPU_SCALING_MAX_FREQ_ON_BAT=2400000
 
 # Set energy performance hints (HWP) for Intel P-state governor:
 #   performance, balance_performance, default, balance_power, power
