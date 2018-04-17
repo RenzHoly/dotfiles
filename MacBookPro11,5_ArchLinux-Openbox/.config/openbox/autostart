@@ -27,3 +27,6 @@ plank &
 ss-qt5 &
 guake &
 polybar -r default &
+eval $(keychain --eval id_rsa)
+eval $(keychain --eval itstaff-cn-north-1.pem)
+
