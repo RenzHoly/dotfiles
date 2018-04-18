@@ -21,7 +21,7 @@ yaourt -S lxdm openbox oblogout obmenu lxappearance-obconf lxappearance
 yaourt -S network-manager-applet networkmanager networkmanager-openvpn
 
 # desktop
-yaourt -S dunst nitrogen rofi rofi-greenclip plank xcompmgr xtrlock polybar
+yaourt -S dunst nitrogen rofi rofi-greenclip plank compton xtrlock polybar
 
 # gui tools
 yaourt -S guake shadowsocks-qt5 flameshot fontweak pcmanfm xarchiver mpv chinese-calendar gpicview
