@@ -57,7 +57,7 @@ label = "%date% %time%"
 [module/network]
 type = internal/network
 interface = wlp4s0
-interval = 1
+interval = 0.5
 label-connected = %downspeed:min:max%
 label-disconnected = 
 
@@ -102,7 +102,6 @@ label-full =
 type = internal/temperature
 interval = 0.5
 thermal-zone = 0
-hwmon-path = /sys/devices/platform/coretemp.0/hwmon/hwmon2/temp1_input
 warn-temperature = 84
 label-warn-foreground = #d73a49
 

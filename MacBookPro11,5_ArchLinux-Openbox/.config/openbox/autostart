@@ -16,7 +16,7 @@
 #
 #xfce-mcs-manager &
 
-compton -b &
+xcompmgr &
 flameshot &
 chinese-calendar &
 pa-applet &

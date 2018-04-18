@@ -21,7 +21,7 @@ yaourt -S lxdm openbox oblogout obmenu lxappearance-obconf lxappearance
 yaourt -S network-manager-applet networkmanager networkmanager-openvpn
 
 # desktop
-yaourt -S dunst nitrogen rofi rofi-greenclip plank compton xtrlock polybar
+yaourt -S dunst nitrogen rofi rofi-greenclip plank xcompmgr xtrlock polybar
 
 # gui tools
 yaourt -S guake shadowsocks-qt5 flameshot fontweak pcmanfm xarchiver mpv chinese-calendar gpicview
@@ -40,7 +40,7 @@ yaourt -S noto-fonts-cjk noto-fonts noto-fonts-emoji ttf-fira-code ttf-monaco tt
 
 # performance tuning
 yaourt -S tlp tlp-rdw mbpfan-git irqbalance driconf profile-sync-daemon systemd-swap linux-zen linux-zen-headers
-
+ 
 # themes
 yaourt -S gtk-engines archlinux-wallpaper lxdm-themes openbox-themes
 
