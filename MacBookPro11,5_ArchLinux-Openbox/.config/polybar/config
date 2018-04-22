@@ -57,7 +57,7 @@ label = "%date% %time%"
 [module/network]
 type = internal/network
 interface = wlp4s0
-interval = 0.5
+interval = 1
 label-connected = %downspeed:min:max%
 label-disconnected = 
 
@@ -77,13 +77,13 @@ label-active-underline = #409EFF
 
 [module/cpu]
 type = internal/cpu
-interval = 0.5
+interval = 1
 label = %percentage%%
 
 
 [module/memory]
 type = internal/memory
-interval = 0.5
+interval = 1
 label = %gb_used%
 
 
@@ -100,7 +100,7 @@ label-full =
 
 [module/temperature]
 type = internal/temperature
-interval = 0.5
+interval = 1
 thermal-zone = 0
 warn-temperature = 84
 label-warn-foreground = #d73a49
@@ -111,7 +111,7 @@ type = custom/script
 format = <label>
 label = %output% RPM
 exec = cat /sys/devices/platform/applesmc.768/fan1_input
-interval = 0.5
+interval = 1
 
 
 [module/freq]
