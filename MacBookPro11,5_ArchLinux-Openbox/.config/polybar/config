@@ -17,7 +17,7 @@ width = 100%
 height = 48
 fixed-center = true
 override-redirect = false
-separator = |
+separator = \
 tray-detached = true
 
 background = ${colors.background}
@@ -32,7 +32,8 @@ padding-right = 1
 module-margin-left = 1
 module-margin-right = 1
 
-font-0 = Ubuntu Mono:style=Bold:size=19
+font-0 = Ubuntu Mono:style=Bold:size=18
+font-1 = Noto Sans Mono CJK SC:style=Bold:size=16
 
 modules-left = workspaces
 modules-center = date cpu freq memory temperature fan network battery
@@ -58,7 +59,7 @@ label = "%date% %time%"
 type = internal/network
 interface = wlp4s0
 interval = 1
-label-connected = %downspeed:min:max%
+label-connected = "↓%downspeed% ↑%upspeed%"
 label-disconnected = 
 
 
@@ -89,7 +90,7 @@ label = %gb_used%
 
 [module/battery]
 type = internal/battery
-full-at = 96
+full-at = 95
 battery = BAT0
 adapter = ADP1
 poll-interval = 60
@@ -101,7 +102,7 @@ label-full =
 [module/temperature]
 type = internal/temperature
 interval = 1
-thermal-zone = 0
+thermal-zone = 2
 warn-temperature = 84
 label-warn-foreground = #d73a49
 
@@ -110,11 +111,13 @@ label-warn-foreground = #d73a49
 type = custom/script
 format = <label>
 label = %output% RPM
-exec = cat /sys/devices/platform/applesmc.768/fan1_input
+exec = cat /sys/devices/platform/applesmc.768/fan*_input | awk '{ total += $1; count++ } END { printf("%.0f", total / count) }'
 interval = 1
 
 
 [module/freq]
 type = custom/script
-exec = cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_cur_freq | awk '{ total += $1; count++ } END { printf("%.1f GHz", total / count / 1000000) }'
-interval = 0.5
+format = <label>
+label = %output% GHz
+exec = cat /sys/devices/system/cpu/cpu*/cpufreq/scaling_cur_freq | awk '{ total += $1; count++ } END { printf("%.2f", total / count / 1000000) }'
+interval = 1
