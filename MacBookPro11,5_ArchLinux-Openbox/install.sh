@@ -39,8 +39,8 @@ yaourt -S pulseaudio pulseaudio-alsa pulseaudio-bluetooth pamixer ponymix pa-app
 yaourt -S noto-fonts-cjk noto-fonts noto-fonts-emoji ttf-fira-code ttf-monaco ttf-ubuntu-font-family
 
 # performance tuning
-yaourt -S acpid thermald mbpfan-git irqbalance driconf profile-sync-daemon linux-ck-haswell linux-ck-haswell-headers
- 
+yaourt -S acpid pstate-frequency thermald mbpfan-git irqbalance driconf profile-sync-daemon linux-ck-haswell linux-ck-haswell-headers
+
 # themes
 yaourt -S gtk-engines archlinux-wallpaper lxdm-themes openbox-themes
 
