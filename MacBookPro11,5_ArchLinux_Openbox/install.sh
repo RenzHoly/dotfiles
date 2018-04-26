@@ -39,13 +39,13 @@ yaourt -S pulseaudio pulseaudio-alsa pulseaudio-bluetooth pamixer ponymix pa-app
 yaourt -S noto-fonts-cjk noto-fonts noto-fonts-emoji ttf-fira-code ttf-monaco ttf-ubuntu-font-family
 
 # performance tuning
-yaourt -S acpid pstate-frequency thermald irqbalance driconf profile-sync-daemon linux-ck-haswell linux-ck-haswell-headers
+yaourt -S acpid pstate-frequency thermald irqbalance driconf linux-ck-haswell linux-ck-haswell-headers
 
 # themes
 yaourt -S gtk-engines archlinux-wallpaper lxdm-themes openbox-themes
 
-# keyboard brightness
-yaourt -S upower python-dbus dbus
+# keyboard
+yaourt -S hid-apple-patched-git-dkms upower python-dbus dbus
 
 # gesture
 yaourt -S libinput-gestures gesture-manager-git
