@@ -46,3 +46,4 @@
 !/etc/xdg
 !/etc/default
 !/etc/systemd
+!/etc/plymouth

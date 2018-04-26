@@ -49,3 +49,6 @@ yaourt -S hid-apple-patched-git-dkms upower python-dbus dbus
 
 # gesture
 yaourt -S libinput-gestures gesture-manager-git
+
+# bootsplash
+yaourt -S plymouth plymouth-theme-arch-logo
