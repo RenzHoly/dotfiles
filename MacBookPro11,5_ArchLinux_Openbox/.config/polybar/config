@@ -102,7 +102,7 @@ label-full =
 [module/temperature]
 type = internal/temperature
 interval = 1
-thermal-zone = 2
+thermal-zone = 1
 warn-temperature = 84
 label-warn-foreground = #d73a49
 
