@@ -47,3 +47,4 @@
 !/etc/default
 !/etc/systemd
 !/etc/plymouth
+!/etc/intel-undervolt.conf
