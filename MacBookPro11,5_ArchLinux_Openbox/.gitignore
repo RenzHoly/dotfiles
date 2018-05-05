@@ -41,10 +41,7 @@
 !/etc/makepkg.conf
 !/etc/proxychains.conf
 !/etc/oblogout.conf
-!/etc/mbpfan.conf
 !/etc/sysctl.d
 !/etc/xdg
-!/etc/default
 !/etc/systemd
-!/etc/plymouth
 !/etc/intel-undervolt.conf
