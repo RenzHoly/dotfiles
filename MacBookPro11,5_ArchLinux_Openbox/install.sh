@@ -33,7 +33,7 @@ yaourt -S qtwebkit-bin fcitx-sogoupinyin fcitx-im
 yaourt -S rsync openssh pigz p7zip unrar proxychains mons gvfs-smb
 
 # audio
-yaourt -S pulseaudio pulseaudio-alsa pulseaudio-bluetooth pamixer ponymix pa-applet-git
+yaourt -S pulseaudio pulseaudio-alsa pulseaudio-bluetooth pamixer pa-applet-git
 
 # fonts
 yaourt -S noto-fonts-cjk noto-fonts noto-fonts-emoji ttf-fira-code ttf-monaco ttf-ubuntu-font-family
@@ -42,7 +42,7 @@ yaourt -S noto-fonts-cjk noto-fonts noto-fonts-emoji ttf-fira-code ttf-monaco tt
 yaourt -S pstate-frequency thermald irqbalance driconf intel-undervolt
 
 # themes
-yaourt -S gtk-engines archlinux-wallpaper lxdm-themes openbox-themes
+yaourt -S gtk-engines archlinux-wallpaper lxdm-themes openbox-themes apitaine-cursors
 
 # keyboard
 yaourt -S hid-apple-patched-git-dkms upower python-dbus dbus
