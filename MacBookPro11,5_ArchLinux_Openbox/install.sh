@@ -39,7 +39,7 @@ yaourt -S pulseaudio pulseaudio-alsa pulseaudio-bluetooth pamixer pa-applet-git
 yaourt -S noto-fonts-cjk noto-fonts noto-fonts-emoji ttf-fira-code ttf-monaco ttf-ubuntu-font-family
 
 # performance tuning
-yaourt -S pstate-frequency thermald irqbalance driconf intel-undervolt mbpfan-git
+yaourt -S pstate-frequency thermald irqbalance driconf intel-undervolt
 
 # themes
 yaourt -S gtk-engines archlinux-wallpaper lxdm-themes openbox-themes apitaine-cursors
