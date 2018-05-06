@@ -45,3 +45,4 @@
 !/etc/xdg
 !/etc/systemd
 !/etc/intel-undervolt.conf
+!/etc/mbpfan.conf
